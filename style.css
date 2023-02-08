@@ -3,10 +3,11 @@
     flex-direction: row;
     align-items: center;
 }
-.logo-name-hamburger {
+.logo-name{
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
 div {
     margin-left: 10px;
@@ -17,10 +18,39 @@ div {
     align-items: center;
     border: 1px solid black;
     flex-grow: 2;
+    justify-content: space-between;
 }
 .invoices-create {
     color: white;
     background-color: darkgreen;
-    padding: 8px;
+    padding: 8px 28px;
     border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}.invoices-create>span {
+    padding: 0px 15px 0px 0px;
+}
+.Dashboard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container-half {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.buttons>button{
+    margin: 5px;
+}
+button{
+    background-color: white;
+    border: 0px;
+}
+.search-bar {
+    
+    border-radius: 7%;
+    padding: 10px;
 }
