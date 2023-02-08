@@ -1,0 +1,26 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo-name-hamburger {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.main-header {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    flex-grow: 2;
+}
+.invoices-create {
+    color: white;
+    background-color: darkgreen;
+    padding: 8px;
+    border-radius: 10%;
+}
